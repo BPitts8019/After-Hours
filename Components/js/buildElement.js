@@ -1,3 +1,13 @@
+/*
+   input object:
+   {
+      tagName: "",
+      content: any,
+      classList: [],
+      parent: Element,
+      attributes: [ [name, value] ]
+   }
+*/
 function buildElement (tagName, content = null, className = null, url = null) {
    // create element
    const tag = document.createElement(tagName);
